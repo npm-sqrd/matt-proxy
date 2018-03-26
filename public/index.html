@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <title>Silverspoon</title>
+  </head>
+  <body>
+    <div id="MenuView"></div>
+    <div id="CountDown"></div>
+    <div id="Related"></div>
+    <div id="Reviews"></div>
+    <script src="/lib/react.development.js"></script>
+    <script src="/lib/react-dom.development.js"></script>
+    <script src="http://localhost:3500/app.js"></script>
+    <!-- <script src="http://localhost:3002/app.js"></script>
+    <script src="http://localhost:3003/app.js"></script>
+    <script src="http://localhost:3004/app.js"></script> -->
+    <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+    <script>
+      ReactDOM.render(
+        React.createElement(MenuView),
+        document.getElementById('MenuView')
+      );
+      // ReactDOM.render(
+      //   React.createElement(CountDown),
+      //   document.getElementById('CountDown')
+      // );
+      // ReactDOM.render(
+      //   React.createElement(Related),
+      //   document.getElementById('Related')
+      // );
+      // ReactDOM.render(
+      //   React.createElement(Reviews),
+      //   document.getElementById('Reviews')
+      // );
+    </script>
+  </body>
+</html>
